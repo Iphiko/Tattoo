@@ -1,0 +1,215 @@
+.mainDiv {
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 90px;
+}
+.TextAbout {
+	font-size: 30px;
+	width: 80%;
+	margin-left: 8%;
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100%;
+	margin-top: 200px;
+	text-align: center;
+	color: rgb(204, 204, 204);
+}
+.AboutMe {
+	font-size: 50px;
+	font-weight: 70%;
+	color: #5cdb95;
+}
+body {
+	background-color: #000000;
+}
+button {
+	width: 95px;
+	background-color: #eb3e3e;
+	color: rgb(255, 255, 255);
+	border: none;
+	padding: 10px 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 25px 2px 0px;
+}
+.Services {
+	font-size: 50px;
+	font-weight: 70%;
+	color: #5cdb95;
+}
+
+.flexContainer3 {
+	width: 80%;
+	height: 80vh;
+	display: flex;
+}
+.flexContainer3 img {
+	width: 40%;
+	height: 100%;
+}
+table {
+	color: rgb(0, 0, 0);
+	font-size: 35px;
+	width: 70%;
+	padding: 5px;
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+}
+tr:nth-child(odd) {
+	background-color: #eb3e3e;
+}
+tr:nth-child(4) {
+	background-color: #5cdb95;
+}
+tr:nth-child(6) {
+	background-color: #5cdb95;
+}
+tr:nth-child(2) {
+	background-color: #5cdb95;
+}
+.Price {
+	font-size: 50px;
+	font-weight: 70%;
+	color: #5cdb95;
+	text-align: center;
+}
+.TAB {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Contacts {
+	font-size: 50px;
+	font-weight: 70%;
+	color: #5cdb95;
+}
+.SVYZI {
+	font-size: 20px;
+	font-weight: 10%;
+	color: rgb(255, 244, 244);
+	text-align: left;
+}
+.End {
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 2fr 4fr;
+	margin-left: 550px;
+}
+.Skidka {
+	color: #ffffff;
+	font-size: 50px;
+	text-align: center;
+}
+@font-face {
+	font-family: "my";
+	src: url(PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+p {
+	font-family: "my";
+	font-weight: 700;
+	text-align: center;
+}
+.otzav {
+	color: #ffffff;
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 20% 20% 20%;
+	margin-left: 550px;
+}
+.Coments {
+	font-size: 50px;
+	font-weight: 70%;
+	color: #5cdb95;
+}
+.groupButten3 {
+	float: right;
+	margin-bottom: 50px;
+}
+.WER {
+	background-color: #000000;
+	border: 1px solid #5cdb95;
+	color: #5cdb95;
+}
+.WER1 {
+	background-color: #000000;
+	border: 1px solid #eb3e3e;
+	color: #eb3e3e;
+}
+.name {
+	font-size: 30px;
+	letter-spacing: 0.5px;
+}
+.foot {
+	color: #ffffff;
+}
+.reklama {
+	height: 20vh;
+	margin-left: 200px;
+}
+p {
+	color: #ffffff;
+}
+.svazisnami {
+	display: grid;
+	grid-template-columns: 50% 20%;
+	grid-template-rows: 70%;
+}
+.want {
+	font-size: 70px;
+	font-weight: 300px;
+	margin-left: 400px;
+	color: #ffffff;
+	font-family: "Times New Roman", Times, serif;
+}
+.tel {
+	font-size: 40px;
+	font-weight: 10px;
+	margin-left: 80px;
+	margin-top: 200px;
+}
+.tep {
+	font-size: 20px;
+	font-weight: 10px;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.tem {
+	font-size: 20px;
+	font-weight: 10px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.polosa {
+	height: 30px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#bodyDekstop {
+	display: block;
+}
+.bodyMobile {
+	display: none;
+}
+@media (max-width: 1585px) {
+	#bodyDekstop {
+		display: none;
+	}
+	.bodyMobile {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 90vh;
+		color: #ffffff;
+	}
+}
